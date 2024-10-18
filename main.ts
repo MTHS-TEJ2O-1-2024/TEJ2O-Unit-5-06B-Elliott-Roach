@@ -17,7 +17,6 @@ input.onButtonPressed(Button.A, function () {
         DigitalPin.P15, 
         DigitalPin.P14, 
         PingUnit.Centimeters,
-        1000
     )
 
     basic.showNumber(distanceToObject)
