@@ -16,7 +16,8 @@ input.onButtonPressed(Button.A, function () {
     distanceToObject = sonar.ping(
         DigitalPin.P15, 
         DigitalPin.P14, 
-        PingUnit.Centimeters
+        PingUnit.Centimeters,
+        1000
     )
 
     basic.showNumber(distanceToObject)
