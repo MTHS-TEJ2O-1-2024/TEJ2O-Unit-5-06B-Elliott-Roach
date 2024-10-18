@@ -14,10 +14,11 @@ basic.showIcon(IconNames.Happy)
 input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     distanceToObject = sonar.ping(
-        DigitalPin.P1, 
-        DigitalPin.P2, 
+        DigitalPin.P15, 
+        DigitalPin.P14, 
         PingUnit.Centimeters
     )
+
     basic.showNumber(distanceToObject)
     basic.showIcon(IconNames.Happy)
 })
